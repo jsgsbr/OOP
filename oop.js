@@ -44,6 +44,7 @@ class Book {
         return _private.get(this).properties['_price'] = newPrice;
     }
 
+    // Muestra el resultado del libro a consultar
     getAllData() {
         console.log( `Titulo: ${this.title}, Author: ${this.author}, Price: ${this.price}` )
     }
